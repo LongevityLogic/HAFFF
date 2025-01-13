@@ -114,7 +114,8 @@ class Predictor(BasePredictor):
     def predict(
         self,
         image: Path = Input(description="Input image that contains hands to fix."),
-        prompt: str = Input(description="Prompt to guide how the hands should be inpainted."),
+        prompt: str = Input(description="Prompt to guide how the hands should be inpainted.",
+                            default="realistic hands, detailed fingers"),
         detection_conf_threshold: float = Input(
             description="Confidence threshold for YOLO hand detection, between 0.0 and 1.0",
             default=0.25,
