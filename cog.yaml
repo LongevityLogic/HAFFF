@@ -1,0 +1,16 @@
+build:
+  python_version: "3.9"
+
+  # System packages you need
+  run:
+    - apt-get update
+    - apt-get install -y libgl1-mesa-glx
+
+  # Python packages
+  python_packages:
+    - torch==2.0.0
+    - diffusers==0.14.0
+    - transformers
+    - cog
+
+predict: "predictor.py:Predictor"
