@@ -31,7 +31,7 @@ cog predict -i text="realistic hands, detailed fingers"
 
 ### 4. Or use Replicate:
 
-link to replicate
+[link to replicate](https://replicate.com/longevitylogic/hafff)
 
 ## Examples
 

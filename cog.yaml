@@ -1,5 +1,6 @@
 build:
   python_version: "3.9"
+  gpu: true
 
   # System packages you need
   run:
